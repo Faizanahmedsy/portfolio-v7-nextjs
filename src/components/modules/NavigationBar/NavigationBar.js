@@ -1,9 +1,9 @@
 import React from "react";
-import { ThemeToggle } from "../dark-mode-toggle";
+import { ThemeToggle } from "../../dark-mode-toggle";
 
 const NavigationBar = () => {
   return (
-    <nav className="flex justify-between px-32 py-5">
+    <nav className="flex justify-between px-32 py-5 sticky">
       <div className="font-mono">portfolio-v7</div>
       <div></div>
       <div>

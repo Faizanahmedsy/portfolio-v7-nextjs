@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "relative h-full font-sans antialiased",
+          "bg-page-gradient relative min-h-screen font-sans antialiased",
           poppins.className
         )}
       >
