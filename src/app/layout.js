@@ -3,6 +3,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NavigationBar } from "@/components/modules";
+import { TracingBeam } from "@/components/shared/tracing-beams";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={cn(
-          "bg-page-gradient relative min-h-screen font-sans antialiased",
+          "bg-page-gradient relative  antialiased",
           poppins.className
         )}
       >
