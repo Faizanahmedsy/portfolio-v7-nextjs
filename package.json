@@ -1,7 +1,11 @@
 {
   "name": "portfolio-v7",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "private": true,
+  "author": {
+    "name": "Faizanahmed Saiyed",
+    "email": "saiyed.faizanahmed1@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +13,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-switch": "^1.0.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
     "lucide-react": "^0.316.0",
     "next": "14.1.0",
+    "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.1",
