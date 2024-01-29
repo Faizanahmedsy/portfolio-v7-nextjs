@@ -1,5 +1,4 @@
 import { UiWrapper } from "@/components/shared";
-import { TracingBeam } from "@/components/shared/tracing-beams";
 
 export default function Home() {
   return (
